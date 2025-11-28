@@ -15,11 +15,16 @@ __pycache__/
 *.venv
 env/
 venv/
+venv*/
 build/
 develop-eggs/
 .eggs/
 *.egg-info/
 *.egg
+*.spec
+
+# PyInstaller
+dist/
 
 # macOS
 .DS_Store
@@ -32,10 +37,7 @@ develop-eggs/
 logs/
 *.log
 
-# 其他
+# IDE
 .idea/
 *.swp
 *.swo
-
-# 排除 GitHub 設定
-.github/
